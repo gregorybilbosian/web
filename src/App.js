@@ -8,6 +8,7 @@ import Logo from './lightbulb-solid.png'
 
 const Nav = [
   { "link": "/", "name": "Home" },
+  {"link":"/cakes","name":"cakes"},
   { "link": "/about", "name": "About" },
   { "link": "/contact", "name": "Contact" }
 ]
