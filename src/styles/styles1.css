@@ -1,0 +1,15 @@
+.cakes {
+    max-width: 1024px;
+    margin: auto;
+}
+.cakes-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.cakes-list img {
+width: 100%;
+height: 300px;
+object-fit: cover;
+object-position:center ;
+}

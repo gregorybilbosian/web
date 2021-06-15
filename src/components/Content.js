@@ -2,7 +2,7 @@ import {Switch,Route} from 'react-router-dom'
 import {Home} from './Home'
 import {About} from './About'
 import {Contact} from './Contact'
-import {Cakes} from './cakes'
+import {Cakes} from './Cakes'
 // firebase
 //import firebase from 'firebase/app'
 //import 'firebase/firestore'
@@ -32,8 +32,7 @@ export function Content(props) {
       //  } )
    // }
     
-const postsURL = "https://public-api.wordpress.com/rest/v1.1/sites/google827298560.wordpress.com/posts/"
-
+const postsURL = 'https://public-api.wordpress.com/rest/v1.1/sites/google827298560.wordpress.com/posts/'
     return (
         <Switch>
             <Route path="/contact">
@@ -44,7 +43,7 @@ const postsURL = "https://public-api.wordpress.com/rest/v1.1/sites/google8272985
             </Route>
             <Route path="/cakes">
            
-            <cakes URL={postsURL}/>
+            <Cakes URL={postsURL}/>
 
             </Route>
              
